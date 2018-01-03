@@ -23,5 +23,17 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/tudor.gologan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.39.0/selenium-android-driver-2.39.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-android-driver"/>
+			<attribute name="maven.version" value="2.39.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tudor.gologan/.p2/pool/plugins/org.testng_6.13.1.r201712040515.jar" sourcepath="C:/Users/tudor.gologan/.p2/pool/plugins/org.testng.source_6.13.1.r201712040515.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tudor.gologan/Downloads/selenium-java-3.8.1/client-combined-3.8.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

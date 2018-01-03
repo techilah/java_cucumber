@@ -1,53 +1,40 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/Cucumber/CucumberTest/FirstTest.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/Cucumber/CucumberTest/SelendroidTest.feature");
 formatter.feature({
-  "name": "Cucumber Test",
-  "description": "  I want to use this template for my feature file",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@tag"
-    }
-  ]
+  "name": "Selendroid application test",
+  "description": "",
+  "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Simple Scenario",
+  "name": "Type into text field",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@tag"
-    },
-    {
-      "name": "@tag1"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
-  "name": "I have a variable with the value 5",
+  "name": "I start the \"selendroid\" application",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepDefinition.i_have_a_variable_with_the_value(double)"
+  "location": "stepDefinition.i_start_the_application(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I increment it with 1",
+  "name": "I type the text \"testtext\" into an input text field",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinition.i_increment_it_with(double)"
+  "location": "stepDefinition.i_type_the_text_into_an_input_text_field(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I have the value 6 in that variable",
+  "name": "I have the text \"testtext\" in that field",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinition.i_have_the_value_in_that_variable(double)"
+  "location": "stepDefinition.i_have_the_text_in_that_field(String)"
 });
 formatter.result({
   "status": "passed"
